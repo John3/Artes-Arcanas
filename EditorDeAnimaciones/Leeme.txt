@@ -1,0 +1,100 @@
+¿Que hace el programa?
+**************************************************************************************
+
+  El programa "Animador" permite optimizar el espacio que ocupa la animación de un sprite. El programa corta las partes que no se usan de la imagen, tomando como color transparente el pixel superior izquierdo.
+El programa crea un .BMP que contiene todos los gráficos animados por cada dirección y un archivo .BIN que contiene las áreas que corresponden a cada frame de la animación del personaje.
+
+¿Que tipo de imagen es necesaria para convertirla en una animación para el juego?
+**************************************************************************************
+
+  El programa necesita una lista de imágenes .BMP en 24bits cada una con un frame de la animación del sprite. Esta lista de imágenes puede ser generada por un programa de diseño 3d. Los nombres de la lista de imágenes deben tener esta forma:
+
+Nombre0060.bmp
+Nombre0001.bmp
+Nombre0032.bmp
+
+La parte "Nombre" puede variar, la secuencia de números puede variar y se puede definir en el programa escribiendo una lista de los números de frames:
+
+Ejemplo, la lista:
+
+60
+1
+32
+34
+12
+23
+16
+11
+
+indica que en la animación los archivos irán en el siguente orden:
+
+?0060.bmp
+?0001.bmp
+?0032.bmp
+?0034.bmp
+?0012.bmp
+?0023.bmp
+?0016.bmp
+?0011.bmp
+
+Nota: ? significa que antes de las cuatro cifras puede venir cualquier tipo de nombre: ej. Animacion0060.bmp, A0060.bmp, X0060.bmp, etc.
+
+Para abrir las imágenes: Presionar el boton "abrir imágenes" y seleccionar el primer archivo correspondiente en la lista, en el ejemplo sería: "?0060.bmp"
+
+El programa mostrará en pantalla la secuencia de animación y será posible animarla o mover la barra desplazadora para ver cada frame.
+
+Para las animaciones de personajes es necesario 20 frames por dirección:
+**************************************************************************************
+
+Frame 1 a 4: Animación de movimiento
+Frame 5: Cuando el avatar está parado
+Frame 6..8: Animación de ataque con daga o puño.
+Frame 9..11: Animación de ataque con arma contundente (ej. una maza)
+Frame 12..14: Animación de ataque con espada
+Frame 15..17: Animación de ataque con hacha
+Frame 18..20: Animación de ataque con arco, ballesta(orcos) o arcabuz(enanos)
+
+Es recomendable que el archivo final .bmp sea convertido a 256 colores(8 bits de color) con un buen editor gráfico, pero puede estar también en 24bits de color.
+
+Para las animaciones de monstruos es necesario 8 frames:
+**************************************************************************************
+
+Frame 1 a 4: Animación de movimiento
+Frame 5: Cuando el monstruo está parado
+Frame 6..8: Animación de ataque.
+
+Es recomendable que el archivo final .bmp sea convertido a 256 colores(8 bits de color) con un buen editor gráfico, pero puede estar también en 24bits de color.
+
+Para las animaciones de efectos:
+**************************************************************************************
+
+El archivo .bmp debe estar en 8bits de color, en escala de grises de 0(negro) a 255(blanco).
+
+Para probar las animaciones:
+**************************************************************************************
+
+Sólo es necesario renombrar las animaciones anteriores y colocarles el mismo nombre a las nuevas animaciones:
+
+ej.
+
+Antes:
+
+m181.bmp
+m181.cr9
+
+Renombrando:
+
+-m181.bmp
+-m181.cr9
+
+Copiando las nuevas animaciones:
+
+m181.bmp
+m181.cr9
+-m181.bmp
+-m181.cr9
+
+*Es importante que cada BMP vaya acompañado de su archivo "cr9" correspondiente o no funcionará el juego.
+
+Vista de la animación 3d:
+* Vista isométrica, con ángulo de elevación de la cámara de 42 grados desde la horizontal. (Un cuadrado de 3 x 3 en el piso visto desde esta cámara se ve como un rectángulo de ancho "3" y altura "2")

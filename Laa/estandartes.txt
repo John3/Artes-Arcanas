@@ -1,0 +1,25 @@
+León dorado en fondo azul oscuro: 43A3DA3D C1A0107D
+Unicornio en fondo rojo oscuro: 50438FBE FEE10E10
+Unicornio oscuro en fondo claro: 78FA0000 C083E83E
+Coronas doradas en fondo rojo: 7D820820 E0820820
+Coronas doradas en fondo rojo oscuro: 7D410410 D0410410
+Calavera y huesos: 7F000FFF 40000FC0
+Calavera y huesos 2: 7F001FFF 40000FC1
+Caducero dorado en fondo verde: 7E13E13E 4410413E
+Caducero dorado en fondo azul: 7E07E07E 4104107E
+Flor de lis amarilla en fondo azul: 430C30C3 7CF030C3
+Flor de lis dorad en fondo azul oscuro: 41041041 7DF41041
+Araña verde en fondo verde oscuro: 44B0412C 6C104B2C
+Disco solar en fondo rojo oscuro: 7CF3CF3C B843CF7C
+Rayo blanco en fondo azul: 7F1C7FFF 87087FC7
+Águila negra en fondo blanco: 7F03FFC0 BFFFF000
+Águila blanca en fondo azul oscuro: 40FC003F 80080FFF
+Estrella blanca en fondo azul: 7F07F07F 8308107F
+Estrella dorada en fondo verde: 7C13C13C 8410413C
+Estrella dorada en fondo negro: 7C03C03C 8400003C
+Rosa roja en fondo rojo oscuro: 50410430 30C30430
+Rosa roja en fondo blanco: 7FFFFFF0 30C30FF0
+Cruz blanca en fondo negro: 7F000FFF 3F000FFF
+Rosa blanca en cruz negra/roja:40C3003F 3FFFF03F
+Rosa blanca en fondo azul: 430030BF 3FFFF03F
+Tres bandas verticales: 54914014 00524924
